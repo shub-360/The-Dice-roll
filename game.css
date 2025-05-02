@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3D365C;
+    color: antiquewhite;
+    height: 100%;
+   
+
+}
+
+/* Main game section */
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    
+}
+.heading{
+    color: #F8B55F;
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+}
+.heading:hover{
+    color: #F8B55F;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.dice-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    margin-top: 2rem;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;;
+}
+.dice-section img{
+    width: 200px;
+    height: 200px;
+}
+.dice-section img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.dice-section p{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: #F8B55F;
+}
+.toss-button{
+    height: 75px;
+    width: 200px;
+    background-color: #C95792;
+    color: #fff0dd;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.toss-button:hover{
+    background-color: #F8B55F;
+    color: #3D365C;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #7C4585;
+    color: #fff0dd;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+}
